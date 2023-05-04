@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Poppins:wght@200&family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#top-section {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0)), url(me-sa-school.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about-me {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0)), url(me-sa-elyu\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#skills {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0)), url(skills.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.container {
+    width: 85%;
+    margin: auto;
+}
+
+nav {
+    height: 80px;
+}
+
+img{
+    margin-top: 14px;
+}
+
+#img-sa-sm{
+    margin-top: 50px;
+    float: right;
+}
+
+nav h1 {
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: white;
+}
+
+nav ul {
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 7px 8px;
+    border-radius: 8px;
+}
+
+nav ul li a:hover{
+    color: darkblue;
+    background-color: white;
+}
+
+div.article {
+    margin: auto;
+    transform: translateY(20vh);
+}
+
+div.article h2{
+    font-size: 54px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+div.article p {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 50px;
+    line-height: 2px;
+}
+
+div.article-2 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(30vh);
+}
+
+div.article-2 h2{
+    font-size: 54px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+div.article-2 p {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+div.article-3 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(20vh);
+}
+
+div.article-3 h2{
+    font-size: 54px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+div.article-3 .p1 {
+    margin-top: 100px;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+div.article-3 .p2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+div.article-3 ul li{
+    display: inline;
+    list-style: none;
+    padding: 50px;
+}
+
+div.article .btn {
+    background-color: white;
+    color: darkblue;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.5s;
+    margin: 20px;
+}
+
+div.article .btn:hover {
+    letter-spacing: 0.30em;
+}
+
+div.footer {
+    background-color: rgb(62, 62, 62);
+    padding: 30px;
+}
+
+div.row {
+    display: flex;
+    flex-wrap: flex;
+}
+
+div.footer-col {
+    width: 100%;
+    padding: 0px 12px;
+}
+
+div.footer-col#col1{
+    width: 130%;
+}
+
+div.footer-col h3 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+div.footer-col p{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+div.footer-col ul{
+    list-style: none;
+}
+
+div.footer-col ul a{
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+}
+
+div.copyright {
+    background-color: black;
+    padding: 15px 0px;
+}
+
+div.copyright p{
+    font-size: small;
+    color: white;
+    text-align: center;
+}
